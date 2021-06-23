@@ -2,6 +2,7 @@ import displayVsCode from "./components/apps/vscode";
 import { displayTerminal } from "./components/apps/terminal";
 import { displaySettings } from "./components/apps/settings";
 import { displayChrome } from "./components/apps/chrome";
+import { displayEasyCloud } from "./components/apps/easycloud";
 import { displayTrash } from "./components/apps/trash";
 import { displayGedit } from "./components/apps/gedit";
 import { displayAboutDiki } from "./components/apps/srj";
@@ -15,6 +16,15 @@ const apps = [
     favourite: true,
     desktop_shortcut: true,
     screen: displayChrome,
+  },
+  {
+    id: "easycloud",
+    title: "Easy Cloud",
+    icon: "./themes/Yaru/apps/easy6.png",
+    disabled: false,
+    favourite: true,
+    desktop_shortcut: true,
+    screen: displayEasyCloud,
   },
   {
     id: "about-Diki",

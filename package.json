@@ -24,7 +24,8 @@
     "eject": "react-scripts eject",
     "build:css": "tailwind build src/styles/styles.css -o src/styles/main.css",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "custom-deploy": "node pages.js"
   },
   "eslintConfig": {
     "extends": [

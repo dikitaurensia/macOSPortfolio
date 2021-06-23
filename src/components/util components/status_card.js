@@ -90,7 +90,7 @@ export class StatusCard extends Component {
             />
           </div>
           <div className="w-2/3 flex items-center justify-between text-gray-400">
-            <span>Redmi Note 8 Pro</span>
+            <span>Realme C3</span>
             <SmallArrow angle="right" />
           </div>
         </div>

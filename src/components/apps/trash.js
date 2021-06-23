@@ -10,28 +10,19 @@ export class Trash extends Component {
         icon: "./themes/filetypes/php.png",
       },
       {
-        name: "React.js",
+        name: "diki-portfolio.js",
         icon: "./themes/filetypes/js.png",
       },
       {
         name: "node_modules",
         icon: "./themes/Yaru/system/folder.svg",
       },
-
       {
-        name: "atom",
-        icon: "./themes/Yaru/system/folder.svg",
-      },
-      {
-        name: "4th-Semester-Assignments.zip",
+        name: "pulang-sekolah.zip",
         icon: "./themes/filetypes/zip.png",
       },
       {
-        name: "cache",
-        icon: "./themes/Yaru/system/folder.svg",
-      },
-      {
-        name: "installer-files",
+        name: "project penting",
         icon: "./themes/Yaru/system/folder.svg",
       },
     ];

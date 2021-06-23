@@ -32027,8 +32027,13 @@ input[type=range].ubuntu-slider::-webkit-slider-thumb {
           filter: blur(15px);
 }
 
+.cont{
+  display: flex;
+  justify-content: center;
+}
+
 .emoji-list>li {
-  padding-left: 10px;
+  padding-left: 10px; 
 }
 
 .list-pc {

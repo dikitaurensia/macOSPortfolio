@@ -193,7 +193,7 @@ function About() {
       <div className="w-80 md:w-80 my-4 bg-white rounded-full">
         <img
           className="w-full rounded"
-          src="./images/logos/bitmoji.png"
+          src="./images/logos/diki.jpg"
           alt="Diki Taurens Sia Logo"
         />
       </div>
@@ -202,36 +202,19 @@ function About() {
           my name is <span className="font-bold">Diki Taurens Sia</span> ,
         </div>
         <div className="font-normal ml-1">
-          I'm a <span className="text-pink-600 font-bold">Web Developer!</span>
+          I'm a <span className="text-pink-600 font-bold">Software Developer!</span>
         </div>
       </div>
       <div className=" my-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
         <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
         <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
       </div>
-      <ul className=" leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-        <li className=" list-pc">
-          I'm a 3<sup>rd</sup> year{" "}
-          <span className=" font-medium">computer Science student</span>{" "}
-          pursuing my B.E. degree from{" "}
-          <a href="https://www.git.edu/" rel="noreferrer" target="_blank">
-            KLS GIT, Belgaum
-          </a>
-          .
+      <ul className=" leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list text-center">
+        <li>
+          8+ year experiences in helping to build technologies in startup companies and enterprise companies.
         </li>
-        <li className=" mt-3 list-building">
+        <li>
           {" "}
-          I enjoy building awesome softwares that solve practical problems.
-        </li>
-        <li className=" mt-3 list-time">
-          {" "}
-          When I am not coding my next project, I like to spend my playing table
-          tennis, playing valorant,watching movies or some courses{" "}
-        </li>
-        <li className=" mt-3 list-star">
-          {" "}
-          And I also have interest in Deep Learning and machine learning in App
-          Development!
         </li>
       </ul>
     </>
@@ -250,35 +233,14 @@ function Education() {
       <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
         <li className="list-disc">
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-            KLS GOGTE INSTITUTE OF TECHNOLOGY- Belgaum
+            Universitas Komputer Indonesia
           </div>
-          <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
+          <div className=" text-sm text-gray-400 mt-0.5">2008 - 2013</div>
           <div className=" text-sm md:text-base">
-            Computer Science & Engineering
+            Informatic Engineering
           </div>
           <div className="text-sm text-gray-300 font-bold mt-1">
-            CGPA &nbsp; 9.10/10
-          </div>
-        </li>
-        <li className="list-disc mt-5">
-          <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-            Class 12<sup>th</sup> KLE Independent Pu College
-          </div>
-          <div className=" text-sm text-gray-400 mt-0.5">2016 - 2018</div>
-          <div className=" text-sm md:text-base">
-            Maths, Physics, Chemistry, CS
-          </div>
-          <div className="text-sm text-gray-300 font-bold mt-1">
-            Percentile Rank &nbsp; 94%
-          </div>
-        </li>
-        <li className="list-disc mt-5">
-          <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-            5-10<sup>th</sup> Dnyan Prabodhan Mandir
-          </div>
-          <div className=" text-sm text-gray-400 mt-0.5">2011 - 2016</div>
-          <div className="text-sm text-gray-300 font-bold mt-1">
-            Percentile Rank &nbsp; 92.2%
+            CGPA &nbsp; 3.41/4
           </div>
         </li>
       </ul>
@@ -304,7 +266,7 @@ function Skills() {
             {" "}
             My areas of expertise are{" "}
             <strong className="text-ubt-gedit-orange">
-              Full-stack development, React.js, Node.js(Express), MongoDB!
+              Full-stack development, React.js, Java, Pascal, SQL, Android!
             </strong>
           </div>
         </li>
@@ -326,17 +288,17 @@ function Skills() {
             <img
               className="m-1"
               src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A"
-              alt="Diki javascript"
+              alt="Diki Javascript"
             />
             <img
               className="m-1"
-              src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff"
-              alt="Diki python"
+              src="https://img.shields.io/badge/-Pascal-3776AB?style=flat&logo=delphi&logoColor=ffffff"
+              alt="Diki Pascal"
             />
             <img
               className="m-1"
-              src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white"
-              alt="Diki dart"
+              src="https://img.shields.io/badge/Android-339933?style=flat&logo=android&logoColor=white"
+              alt="Diki Android"
             />
             <a
               href="https://www.google.com/search?q=is+html+a+language%3F"
@@ -352,8 +314,8 @@ function Skills() {
             </a>
             <img
               className="m-1"
-              src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white"
-              alt="Diki c++"
+              src="https://img.shields.io/badge/PHP-00599C?style=flat&logo=PHP&logoColor=white"
+              alt="Diki PHP"
             />
             <img
               src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff"
@@ -411,9 +373,9 @@ function Projects() {
     {
       name: "Websites",
       description: [
-        "More than 50 static websites for Knowledge Publishing Group(Canada)",
-        " Almamatters(Student Internship Portal)",
-        " Clinic- Management-System,Keeper(Daily Task Noter)",
+        " More than 30 static websites for Company Profile and Landing Page",
+        " Ticketing System",
+        " E-Commerce",
         " Secure Auth System",
       ],
       domains: [
@@ -421,51 +383,42 @@ function Projects() {
         "CSS",
         "Bootstrap",
         "Javascript",
-        "React",
-        "Node(Express)",
-        "MongoDB",
+        "PHP",
+        "JQuery",
+        "Pascal"
       ],
     },
     {
       name: "Apps",
       description: [
-        "Shazam(The Chat-App)",
-        "CryptoBuddy(Real-time Crypto Tracker App)",
-        " Clima-Cool(Real-time Weather Forecasting App)",
-        "Leela-Ethinic Wear Online Shopping App (Wordpress WebView App)",
-        " ICamps-Mock(App to Answer survey forms)",
-        " HealtifyMe(Calculates BMI)",
+        "MRP",
+        "System Tracking Employee ",
+        "Scheduling System",
+        "Integration System",
       ],
-      domains: ["flutter", "firestore", "dart", "firebase auth"],
-    },
-    {
-      name: "Web Automation Apps",
-      description: [
-        "Scripts for automating daily tasks like event registration",
-      ],
-      domains: ["Python", "Selenium", "Django"],
+      domains: ["Javascript", "Firestore", "Firebase", "Pascal", "PHP"],
     },
   ];
 
   const tag_colors = {
-    javascript: "yellow-300",
+    Javascript: "yellow-300",
     HTML5: "pink-600",
     CSS: "pink-400",
     Bootstrap: "yellow-600",
     Javascript: "green-600",
     MongoDB: "green-200",
     React: "blue-500",
-    firebase: "red-600",
-    firestore: "red-500",
+    Firebase: "red-600",
+    Firestore: "red-500",
     "chrome-extension": "yellow-400",
     flutter: "blue-400",
     dart: "blue-500",
     "react-native": "purple-500",
     html5: "pink-600",
     sass: "pink-400",
-    tensorflow: "yellow-600",
-    django: "green-600",
-    python: "green-200",
+    JQuery: "yellow-600",
+    Pascal: "green-600",
+    PHP: "green-200",
   };
 
   return (
