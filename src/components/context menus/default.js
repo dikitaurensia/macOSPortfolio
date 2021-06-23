@@ -17,7 +17,7 @@ function DefaultMenu(props) {
         " w-52 context-menu-bg border text-left border-gray-900 rounded text-white py-4 absolute z-50 text-sm"
       }
     >
-      <a
+      {/* <a
         rel="noreferrer noopener"
         href="https://github.com/dikitaurensia/dikitaurensia.github.io"
         target="_blank"
@@ -35,14 +35,14 @@ function DefaultMenu(props) {
         <span className="ml-5">❗</span>{" "}
         <span className="ml-2">Report bugs</span>
       </a>
-      {devider()}
+      {devider()} */}
       <a
         rel="noreferrer noopener"
         href="https://www.linkedin.com/in/dikitaurensia/"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
-        <span className="ml-5">🙋‍♂️</span>{" "}
+        <span className="ml-5">🙋</span>{" "}
         <span className="ml-2">
           Follow on <strong>Linkedin</strong>
         </span>
@@ -53,7 +53,7 @@ function DefaultMenu(props) {
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
-        <span className="ml-5">🤝</span>{" "}
+        <span className="ml-5">🙋</span>{" "}
         <span className="ml-2">
           Follow on <strong>Github</strong>
         </span>
@@ -75,7 +75,7 @@ function DefaultMenu(props) {
         }}
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
-        <span className="ml-5">🧹</span> <span className="ml-2">Reset</span>
+        <span className="ml-5">⟲</span> <span className="ml-2">Reset</span>
       </div>
     </div>
   );
