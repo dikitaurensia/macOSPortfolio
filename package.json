@@ -1,8 +1,8 @@
 {
-  "name": "sharansrj567-portfolio",
+  "name": "dikitaurensia-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sharansrj567.github.io",
+  "homepage": "https://dikitaurensia.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",

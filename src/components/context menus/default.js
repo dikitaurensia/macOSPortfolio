@@ -19,7 +19,7 @@ function DefaultMenu(props) {
     >
       <a
         rel="noreferrer noopener"
-        href="https://github.com/sharansrj567/sharansrj567.github.io"
+        href="https://github.com/dikitaurensia/dikitaurensia.github.io"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
@@ -28,7 +28,7 @@ function DefaultMenu(props) {
       </a>
       <a
         rel="noreferrer noopener"
-        href="https://github.com/sharansrj567/sharansrj567.github.io/issues"
+        href="https://github.com/dikitaurensia/dikitaurensia.github.io/issues"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
@@ -38,7 +38,7 @@ function DefaultMenu(props) {
       {devider()}
       <a
         rel="noreferrer noopener"
-        href="https://www.linkedin.com/in/sharan-jamanani/"
+        href="https://www.linkedin.com/in/dikitaurensia/"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
@@ -49,7 +49,7 @@ function DefaultMenu(props) {
       </a>
       <a
         rel="noreferrer noopener"
-        href="https://github.com/sharansrj567"
+        href="https://github.com/dikitaurensia"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
@@ -60,7 +60,7 @@ function DefaultMenu(props) {
       </a>
       <a
         rel="noreferrer noopener"
-        href="mailto:sharansrj567@gmail.com"
+        href="mailto:dikitaurensia@gmail.com"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >

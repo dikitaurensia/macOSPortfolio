@@ -6,10 +6,10 @@ function BootingScreen(props) {
       style={
         props.visible || props.isShutDown
           ? {
-              zIndex: "100",
-              boxShadow: "inset 0 0 500px rgba(255, 255, 255, .3)",
-              filter: "blur(0.7px)",
-            }
+            zIndex: "100",
+            boxShadow: "inset 0 0 500px rgba(255, 255, 255, .3)",
+            filter: "blur(0.7px)",
+          }
           : { zIndex: "-20" }
       }
       className={
@@ -48,7 +48,7 @@ function BootingScreen(props) {
       <div className="text-white mb-4">
         <a
           className="underline"
-          href="https://www.linkedin.com/in/sharan-jamanani/"
+          href="https://www.linkedin.com/in/dikitaurensia/"
           rel="noreferrer noopener"
           target="_blank"
         >
@@ -56,7 +56,7 @@ function BootingScreen(props) {
         </a>
         <span className="font-bold mx-1">|</span>
         <a
-          href="https://github.com/sharansrj567/sharansrj567.github.io"
+          href="https://github.com/dikitaurensia/dikitaurensia.github.io"
           rel="noreferrer noopener"
           target="_blank"
           className="underline"

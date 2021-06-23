@@ -4,7 +4,7 @@ import { displaySettings } from "./components/apps/settings";
 import { displayChrome } from "./components/apps/chrome";
 import { displayTrash } from "./components/apps/trash";
 import { displayGedit } from "./components/apps/gedit";
-import { displayAboutSharan } from "./components/apps/srj";
+import { displayAboutDiki } from "./components/apps/srj";
 
 const apps = [
   {
@@ -17,13 +17,13 @@ const apps = [
     screen: displayChrome,
   },
   {
-    id: "about-sharan",
-    title: "About Sharan",
+    id: "about-Diki",
+    title: "About Diki",
     icon: "./themes/Yaru/system/user-home.svg",
     disabled: false,
     favourite: true,
     desktop_shortcut: true,
-    screen: displayAboutSharan,
+    screen: displayAboutDiki,
   },
   {
     id: "vscode",

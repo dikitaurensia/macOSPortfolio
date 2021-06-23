@@ -30,7 +30,7 @@ export class Terminal extends Component {
         "Firebase",
       ],
       projects: [
-        "sharansrj567-personal-portfolio",
+        "dikitaurensia-personal-portfolio",
         "synonyms-list-react",
         "economist.com-unlocked",
         "Improve-Codeforces",

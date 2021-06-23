@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import ReactGA from "react-ga";
 
-export class AboutSharan extends Component {
+export class AboutDiki extends Component {
   constructor() {
     super();
     this.screens = {};
     this.state = {
-      screen: () => {},
+      screen: () => { },
       active_screen: "about", // by default 'about' screen is active
       navbar: false,
     };
@@ -65,7 +65,7 @@ export class AboutSharan extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="about sharan"
+            alt="about Diki"
             src="./themes/Yaru/status/about.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
@@ -83,7 +83,7 @@ export class AboutSharan extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="sharan' education"
+            alt="Diki' education"
             src="./themes/Yaru/status/education.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
@@ -101,7 +101,7 @@ export class AboutSharan extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="sharan' skills"
+            alt="Diki' skills"
             src="./themes/Yaru/status/skills.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
@@ -119,7 +119,7 @@ export class AboutSharan extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="sharan' projects"
+            alt="Diki' projects"
             src="./themes/Yaru/status/projects.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
@@ -137,7 +137,7 @@ export class AboutSharan extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="sharan's resume"
+            alt="Diki's resume"
             src="./themes/Yaru/status/download.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
@@ -181,10 +181,10 @@ export class AboutSharan extends Component {
   }
 }
 
-export default AboutSharan;
+export default AboutDiki;
 
-export const displayAboutSharan = () => {
-  return <AboutSharan />;
+export const displayAboutDiki = () => {
+  return <AboutDiki />;
 };
 
 function About() {
@@ -194,12 +194,12 @@ function About() {
         <img
           className="w-full rounded"
           src="./images/logos/bitmoji.png"
-          alt="Sharan Jamnani Logo"
+          alt="Diki Taurens Sia Logo"
         />
       </div>
       <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
         <div>
-          my name is <span className="font-bold">Sharan Jamnani</span> ,
+          my name is <span className="font-bold">Diki Taurens Sia</span> ,
         </div>
         <div className="font-normal ml-1">
           I'm a <span className="text-pink-600 font-bold">Web Developer!</span>
@@ -326,17 +326,17 @@ function Skills() {
             <img
               className="m-1"
               src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A"
-              alt="sharan javascript"
+              alt="Diki javascript"
             />
             <img
               className="m-1"
               src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff"
-              alt="sharan python"
+              alt="Diki python"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white"
-              alt="sharan dart"
+              alt="Diki dart"
             />
             <a
               href="https://www.google.com/search?q=is+html+a+language%3F"
@@ -347,22 +347,22 @@ function Skills() {
                 title="yes it's a language!"
                 className="m-1"
                 src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat&logo=html5&logoColor=ffffff"
-                alt="sharan HTML"
+                alt="Diki HTML"
               />
             </a>
             <img
               className="m-1"
               src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white"
-              alt="sharan c++"
+              alt="Diki c++"
             />
             <img
               src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff"
-              alt="sharan git"
+              alt="Diki git"
               className="m-1"
             />
             <img
               src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase&logoColor=ffffff"
-              alt="sharan firebase"
+              alt="Diki firebase"
               className="m-1"
             />
           </div>
@@ -372,32 +372,32 @@ function Skills() {
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff"
-              alt="sharan react"
+              alt="Diki react"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-React--Native-orange?style=flat&logo=react&logoColor=ffffff"
-              alt="sharan react-native"
+              alt="Diki react-native"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white"
-              alt="sharan flutter"
+              alt="Diki flutter"
             />
             <img
               src="https://img.shields.io/badge/-Nodejs-339933?style=flat&logo=Node.js&logoColor=ffffff"
-              alt="sharan node.js"
+              alt="Diki node.js"
               className="m-1"
             />
             <img
               src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white"
-              alt="sharan jquery"
+              alt="Diki jquery"
               className="m-1"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white"
-              alt="sharan redux"
+              alt="Diki redux"
             />
           </div>
         </div>
@@ -507,17 +507,17 @@ function Projects() {
               <div className="flex flex-wrap items-start justify-start text-xs py-2">
                 {project.domains
                   ? project.domains.map((domain, index) => {
-                      let tag_color = tag_colors[domain];
-                      return (
-                        <span
-                          key={index}
-                          style={{ borderWidth: "1pt" }}
-                          className={`px-1.5 py-0.5 w-max border-${tag_color} text-${tag_color} m-1 rounded-full`}
-                        >
-                          {domain}
-                        </span>
-                      );
-                    })
+                    let tag_color = tag_colors[domain];
+                    return (
+                      <span
+                        key={index}
+                        style={{ borderWidth: "1pt" }}
+                        className={`px-1.5 py-0.5 w-max border-${tag_color} text-${tag_color} m-1 rounded-full`}
+                      >
+                        {domain}
+                      </span>
+                    );
+                  })
                   : null}
               </div>
             </div>
@@ -531,8 +531,8 @@ function Resume() {
   return (
     <iframe
       className="h-full w-full"
-      src="./files/Sharan-Resume.pdf"
-      title="sharan jamnani resume"
+      src="./files/Diki-Resume.pdf"
+      title="Diki Taurens Sia resume"
       frameBorder="0"
     ></iframe>
   );
